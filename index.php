@@ -1,21 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>eLab - Home</title>
-	<link rel="icon" href="img/Fevicon.png" type="image/png">
-
-  <link rel="stylesheet" href="vendor/vendors/bootstrap/bootstrap.min.css">
-  <link rel="stylesheet" href="vendor/vendors/fontawesome/css/all.min.css">
-  <link rel="stylesheet" href="vendor/vendors/themify-icons/themify-icons.css">
-  <link rel="stylesheet" href="vendor/vendors/linericon/style.css">
-  <link rel="stylesheet" href="vendor/vendors/owl-carousel/owl.theme.default.min.css">
-  <link rel="stylesheet" href="vendor/vendors/owl-carousel/owl.carousel.min.css">
-  <link rel="stylesheet" href="vendor/vendors/flat-icon/font/flaticon.css">
-  <link rel="stylesheet" href="vendor/vendors/nice-select/nice-select.css">
-  <link rel="stylesheet" href="css/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>eLab - Home</title>
+    <?php include('link_rel.php'); ?>
 </head>
 <body class="bg-shape">
 
@@ -24,30 +14,7 @@ Devpage
 </a>
 
   <!--================ Header Menu Area start =================-->
-  <header class="header_area">
-    <div class="main_menu">
-      <nav class="navbar navbar-expand-lg navbar-light">
-        <div class="container box_1620">
-          <a class="navbar-brand logo_h" href="index.php"><img src="img/logo.png" alt=""></a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-
-          <div class="collapse navbar-collapse offset" id="navbarSupportedContent">
-            <ul class="nav navbar-nav menu_nav justify-content-end">
-              <li class="nav-item active"><a class="nav-link" href="index.html"></a></li> 
-            </ul>
-
-            <div class="nav-right text-center text-lg-right py-4 py-lg-0">
-              <a class="button" href="login.php">Login</a>
-            </div>
-          </div> 
-        </div>
-      </nav>
-    </div>
-  </header>
+<?php include('header.php'); ?>
   <!--================Header Menu Area =================-->
 
 
@@ -59,7 +26,7 @@ Devpage
         <div class="col-md-6 col-lg-5 mb-5 mb-md-0">
           <h1>Skill for a Skill</h1>
           <p>Air seed winged lights saw kind whales in sixth dont seas dron image so fish all tree meat dont there is seed winged lights saw kind whales in sixth dont seas dron image so fish all tree meat dont there </p>
-          <a class="button button-hero mt-4" href="#">Get Started</a>
+          <a class="button button-hero mt-4" href="login.php">Get Started</a>
         </div>
         <div class="col-md-6 col-lg-7 col-xl-6 offset-xl-1">
           <img class="img-fluid" src="img/home/hero-img.png" alt="">

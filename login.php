@@ -25,9 +25,13 @@
 <!--===============================================================================================-->
 	<link rel="stylesheet" type="text/css" href="css/util.css">
 	<link rel="stylesheet" type="text/css" href="css/main.css">
-<!--===============================================================================================-->
+
+    <?php include('link_rel.php'); ?>
+
+    <!--===============================================================================================-->
 </head>
 <body>
+<?php include('header.php'); ?>
 	
 	
 	<div class="container-login100" style="background-image: url('img/bg-01.jpg');">
@@ -48,21 +52,20 @@
 					<span class="focus-input100"></span>
 				</div>
 
+				<div class="option-btn">
+				<input type="radio" name="demo" value="one" id="radio-one" class="form-radio" checked><label for="radio-one">Study</label>
+				<input type="radio" name="demo" value="one" id="radio-one" class="form-radio" checked><label for="radio-one">Teach</label>
+				</div>
+
+
 				<div class="container-login100-form-btn">
 					<button class="login100-form-btn">
 						Sign In
 					</button>
 				</div>
 
-				<span>
-
-				</span>
-
-				<div class="text-center">
-					<span>
-						
-					</span>
-					<a href="#" class="txt2 hov1">
+				<div class="text-center txtSignup">
+					<a href="signup.php" class="txt2 hov1">
 						Sign Up
 					</a>
 				</div>

@@ -9,12 +9,15 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Sign Up Form</title>
         <link href='https://fonts.googleapis.com/css?family=Nunito:400,300' rel='stylesheet' type='text/css'>
-        <link rel="stylesheet" href="../css/main.css">
-        <link rel="stylesheet" href="../css/signup.css">
+        <?php include('link_rel.php'); ?>
+        <link rel="stylesheet" href="css/signup.css">
     </head>
     <body>
-
-      <form action="index.html" method="post">
+    <?php include('header.php'); ?>
+    <br>
+    <br>
+    <br>
+      <form action="entry.php" method="post">
 
         <h1>Sign Up</h1>
 
@@ -67,7 +70,8 @@
             <input type="checkbox" id="design" value="interest_design" name="user_interest"><label class="light" for="design">Learning</label><br>
 
         </fieldset>
-        <button type="submit">Sign Up</button>
+          <br>
+        <button class="button" type="submit">Sign Up</button>
       </form>
 
     </body>
