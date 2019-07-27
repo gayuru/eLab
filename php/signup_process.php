@@ -29,8 +29,8 @@ else{
 
 if (!preg_match("/^[A-Za-z\s.'-]*$/", $name) || !filter_var($email, FILTER_VALIDATE_EMAIL) ||
     !preg_match("/^(\(04\)|04|\+614)[ ]?\d{4}[ ]?\d{4}$/", $phone) ||
-    !($mailing=="off" || $mailing=="on") {
-    echo 'Illegal inputs, directing you back to the contact page';
+    !($mailing=="off" || $mailing=="on")) {
+    echo 'Illegal inputs, directing you back to the sign up page';
     header("Refresh: 5; URL=signup.php");
     exit();
 }
@@ -41,7 +41,6 @@ $rem_input= "";
 foreach($rem_list as $rem){
     $rem_input.="'".$rem."'".',';
 }
-$rem_input.="'".$rememberme."'";
 
 echo '<script type="text/javascript">rem('.$rem_input.');</script>';
 

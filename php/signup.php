@@ -44,7 +44,7 @@
                     <label onclick="message.focus();">Skills</label>
                 </td>
                 <td>
-                    <textarea name="skills" id="skills" placeholder="Type skills here.." cols="40" rows="5" required></textarea>
+                    <textarea name="skills" id="skills" placeholder="Type skills here..(Multiple skills separated by comma)" cols="40" rows="5" required></textarea>
                 </td>
             </tr>
             <tr>
