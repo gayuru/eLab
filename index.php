@@ -65,8 +65,8 @@ Devpage
     <div class="container">
       <div class="section-intro text-center pb-90px">
         <img class="section-intro-img" src="img/home/section-icon.png" alt="">
-        <h2>Our Most Popular Skills</h2>
-        <p>A selection of our most popular taught skills.</p>
+        <h2>What Makes Us Special</h2>
+        <p>Three of the reasons of what makes us different.</p>
       </div>
 
       <div class="row">
@@ -76,8 +76,8 @@ Devpage
               <img class="img-fluid" src="img/home/service1.png" alt="">
             </div>
             <div class="service-card-body">
-              <h3>Hotel Booking</h3>
-              <p>Great so dominion two seed give dry rule be fowl him female you will gathered creeping and created air</p>
+              <h3>Learn Various Skills</h3>
+              <p>Enjoy various skills from different fields such as Science, Programming, Art, Languages, and even Bussiness.</p>
             </div>
           </div>
         </div>
@@ -87,8 +87,8 @@ Devpage
               <img class="img-fluid" src="img/home/service2.png" alt="">
             </div>
             <div class="service-card-body">
-              <h3>Flight Booking</h3>
-              <p>Great so dominion two seed give dry rule be fowl him female you will gathered creeping and created air</p>
+              <h3>Accessible & Equitable Learning</h3>
+              <p>A wide-range of support for all kinds of learning, including but not limited to video, audio, or even text based learning.</p>
             </div>
           </div>
         </div>
@@ -98,8 +98,8 @@ Devpage
               <img class="img-fluid" src="img/home/service3.png" alt="">
             </div>
             <div class="service-card-body">
-              <h3>Destination Booking</h3>
-              <p>Great so dominion two seed give dry rule be fowl him female you will gathered creeping and created air</p>
+              <h3>Earn Points for Free</h3>
+              <p>Earn points by sharing your skills with others without spending even a single cent for the service</p>
             </div>
           </div>
         </div>
@@ -119,302 +119,14 @@ Devpage
           </div>
         </div>
         <div class="col-lg-5 col-md-6 align-self-center about-content">
-          <h2>Exploration is <br class="d-none d-xl-block"> really the essence <br class="d-none d-xl-block"> of the human spirit</h2>
-          <p>Make she'd moved divided air. Whose tree that replenish tone hath own upon them it multiply was blessed is lights make gathering so day dominion so creeping air was made.</p>
-          <a class="button" href="#">Learn More</a>
+          <h2>Learning is <br class="d-none d-xl-block"> really the essence <br class="d-none d-xl-block"> of the human spirit</h2>
+          <p>The moment we stop learning is the moment we stop growing. Join us in our endeavour to provide the best equal learning opportunity for everyone.</p>
+          <a class="button" href="login.php">Learn More</a>
         </div>
       </div>
     </div>
   </section>
   <!--================About Area End =================-->
-
-  <!--================Tour section Start =================-->
-  <section class="section-margin pb-xl-5">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-6">
-          <div class="tour-card">
-            <img class="card-img rounded-0" src="img/home/tour1.png" alt="">
-            <div class="tour-card-overlay">
-              <div class="media">
-                <div class="media-body">
-                  <h4>Paris tour offer</h4>
-                  <small>5 days offer</small>
-                  <p>We proper guided our tourist</p>
-                </div>
-                <div class="media-price">
-                  <h4 class="text-primary">$65/day</h4>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-md-6">
-          <div class="row">
-            <div class="col-lg-10 offset-lg-1">
-              <div class="tour-content">
-                <h2>We offer worldwise tour plan recently</h2>
-                <p>Make she'd moved divided air. Whose tree that hath own upon them it multiply was blessed </p>
-              </div>
-            </div>
-          </div>
-
-          <div class="tour-card">
-            <img class="card-img rounded-0" src="img/home/tour2.png" alt="">
-            <div class="tour-card-overlay">
-              <div class="media">
-                <div class="media-body">
-                  <h4>Paris tour offer</h4>
-                  <small>5 days offer</small>
-                  <p>We proper guided our tourist</p>
-                </div>
-                <div class="media-price">
-                  <h4 class="text-primary">$65/day</h4>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="row">
-        <div class="col-md-6 col-lg-7">
-          <div class="tour-card">
-            <img class="card-img rounded-0" src="img/home/tour3.png" alt="">
-            <div class="tour-card-overlay">
-              <div class="media">
-                <div class="media-body">
-                  <h4>Paris tour offer</h4>
-                  <small>5 days offer</small>
-                  <p>We proper guided our tourist</p>
-                </div>
-                <div class="media-price">
-                  <h4 class="text-primary">$65/day</h4>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-6 col-lg-5">
-          <div class="tour-card">
-            <img class="card-img rounded-0" src="img/home/tour4.png" alt="">
-            <div class="tour-card-overlay">
-              <div class="media">
-                <div class="media-body">
-                  <h4>Paris tour offer</h4>
-                  <small>5 days offer</small>
-                  <p>We proper guided our tourist</p>
-                </div>
-                <div class="media-price">
-                  <h4 class="text-primary">$65/day</h4>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!--================Tour section End =================-->
-
-
-  <!--================Testimonial section Start =================-->
-  <section class="bg-gray section-padding magic-ball magic-ball-testimonial pb-xl-5">
-    <div class="container">
-      <div class="section-intro text-center pb-90px">
-        <img class="section-intro-img" src="img/home/section-icon.png" alt="">
-        <h2>Our client says</h2>
-        <p>Fowl have fruit moveth male they are that place you will lesser</p>
-      </div>
-
-
-      <div class="owl-carousel owl-theme testimonial pb-xl-5">
-        <div class="testimonial__item">
-          <div class="row">
-            <div class="col-md-3 col-lg-2 align-self-center">
-              <div class="testimonial__img">
-                <img class="card-img rounded-0" src="img/testimonial/t-slider1.png" alt="">
-              </div>
-            </div>
-            <div class="col-md-9 col-lg-10">
-              <div class="testimonial__content mt-3 mt-sm-0">
-                <h3>Daniel heart</h3>
-                <p>Project manager, Nestle</p>
-                <p class="testimonial__i">Also made from. Give may saying meat there from heaven it lights face had is gathered god earth light for life may itself shall whales made they're blessed whales also made from give may saying meat. There from heaven it lights face had</p>
-                <span class="testimonial__icon"><i class="ti-quote-right"></i></span>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="testimonial__item">
-          <div class="row">
-            <div class="col-md-3 col-lg-2 align-self-center">
-              <div class="testimonial__img">
-                <img class="card-img rounded-0" src="img/testimonial/t-slider1.png" alt="">
-              </div>
-            </div>
-            <div class="col-md-9 col-lg-10">
-              <div class="testimonial__content mt-3 mt-sm-0">
-                <h3>Daniel heart</h3>
-                <p>Project manager, Nestle</p>
-                <p class="testimonial__i">Also made from. Give may saying meat there from heaven it lights face had is gathered god earth light for life may itself shall whales made they're blessed whales also made from give may saying meat. There from heaven it lights face had</p>
-                <span class="testimonial__icon"><i class="ti-quote-right"></i></span>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="testimonial__item">
-          <div class="row">
-            <div class="col-md-3 col-lg-2 align-self-center">
-              <div class="testimonial__img">
-                <img class="card-img rounded-0" src="img/testimonial/t-slider1.png" alt="">
-              </div>
-            </div>
-            <div class="col-md-9 col-lg-10">
-              <div class="testimonial__content mt-3 mt-sm-0">
-                <h3>Daniel heart</h3>
-                <p>Project manager, Nestle</p>
-                <p class="testimonial__i">Also made from. Give may saying meat there from heaven it lights face had is gathered god earth light for life may itself shall whales made they're blessed whales also made from give may saying meat. There from heaven it lights face had</p>
-                <span class="testimonial__icon"><i class="ti-quote-right"></i></span>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!--================Testimonial section End =================-->
-
-
-  <!--================Search Package section Start =================-->
-  <section class="section-margin">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-6 col-xl-5 align-self-center mb-5 mb-lg-0">
-          <div class="search-content">
-            <h2>Search suitable <br class="d-none d-xl-block"> and affordable plan <br class="d-none d-xl-block"> for your tour</h2>
-            <p>Make she'd moved divided air. Whose tree that replenish tone hath own upon them it multiply was blessed is lights make gathering so day dominion so creeping</p>
-            <a class="button" href="#">Learn More</a>
-          </div>
-        </div>
-        <div class="col-lg-6 col-xl-6 offset-xl-1">
-          <div class="search-wrapper">
-            <h3>Search Package</h3>
-
-            <form class="search-form" action="#">
-              <div class="form-group">
-                <div class="input-group">
-                  <input type="text" class="form-control" placeholder="Recipient's username">
-                  <div class="input-group-append">
-                    <span class="input-group-text"><i class="ti-search"></i></span>
-                  </div>
-                </div>
-              </div>
-              <div class="form-group">
-                <select name="category" id="category">
-                  <option value="disabled" disabled selected>Category</option>
-                  <option value="8 AM">8 AM</option>
-                  <option value="12 PM">12 PM</option>
-                </select>
-              </div>
-              <div class="form-group">
-                <select name="tourDucation" id="tourDuration">
-                  <option value="disabled" disabled selected>Tour duration</option>
-                  <option value="8 AM">8 AM</option>
-                  <option value="12 PM">12 PM</option>
-                </select>
-              </div>
-              <div class="form-group">
-                <div class="input-group">
-                  <input type="date" class="form-control">
-                  <div class="input-group-append">
-                    <span class="input-group-text"><i class="ti-notepad"></i></span>
-                  </div>
-                </div>
-              </div>
-              <div class="form-group">
-                <select name="priceRange" id="priceRange">
-                  <option value="disabled" disabled selected>Price range</option>
-                  <option value="8 AM">8 AM</option>
-                  <option value="12 PM">12 PM</option>
-                </select>
-              </div>
-              <div class="form-group">
-                <button class="button border-0 mt-3" type="submit">Search Package</button>
-              </div>
-            </form>
-          </div>
-
-        </div>
-      </div>
-    </div>
-  </section>
-  <!--================Search Package section End =================-->
-
-
-  <!--================Blog section Start =================-->
-  <section class="section-padding bg-gray">
-    <div class="container">
-      <div class="section-intro text-center pb-90px">
-        <img class="section-intro-img" src="img/home/section-icon.png" alt="">
-        <h2>From our Blog</h2>
-        <p>Fowl have fruit moveth male they are that place you will lesser</p>
-      </div>
-
-      <div class="row">
-        <div class="col-md-6 col-lg-4 mb-4 mb-lg-0">
-          <div class="card-blog">
-            <img class="card-img rounded-0" src="img/blog/blog-1.png" alt="">
-            <div class="card-blog-body">
-              <a href="#">
-                <h4>Forest responds to consultation smoking in al fresco.</h4>
-              </a>
-              <ul class="card-blog-info">
-                <li><a href="#"><span class="align-middle"><i class="ti-notepad"></i></span>Jan 03, 2018</a></li>
-                <li><a href="#"><span class="align-middle"><i class="ti-comments-smiley"></i></span>03 Comments</a></li>
-              </ul>
-              <p>Varius metus morbi ferme libero vehic on porta malesuada ut interdu estmales torquent vehicula parturient </p>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-md-6 col-lg-4 mb-4 mb-lg-0">
-          <div class="card-blog">
-            <img class="card-img rounded-0" src="img/blog/blog-2.png" alt="">
-            <div class="card-blog-body">
-              <a href="#">
-                <h4>Forest responds to consultation smoking in al fresco.</h4>
-              </a>
-              <ul class="card-blog-info">
-                <li><a href="#"><span class="align-middle"><i class="ti-notepad"></i></span>Jan 03, 2018</a></li>
-                <li><a href="#"><span class="align-middle"><i class="ti-comments-smiley"></i></span>03 Comments</a></li>
-              </ul>
-              <p>Varius metus morbi ferme libero vehic on porta malesuada ut interdu estmales torquent vehicula parturient </p>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-md-6 col-lg-4 mb-4 mb-lg-0">
-          <div class="card-blog">
-            <img class="card-img rounded-0" src="img/blog/blog-3.png" alt="">
-            <div class="card-blog-body">
-              <a href="#">
-                <h4>Forest responds to consultation smoking in al fresco.</h4>
-              </a>
-              <ul class="card-blog-info">
-                <li><a href="#"><span class="align-middle"><i class="ti-notepad"></i></span>Jan 03, 2018</a></li>
-                <li><a href="#"><span class="align-middle"><i class="ti-comments-smiley"></i></span>03 Comments</a></li>
-              </ul>
-              <p>Varius metus morbi ferme libero vehic on porta malesuada ut interdu estmales torquent vehicula parturient </p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!--================Blog section End =================-->
-
 
   <!-- ================ start footer Area ================= -->
   <footer class="footer-area">
@@ -422,9 +134,9 @@ Devpage
       <div class="row">
         <div class="col-lg-3  col-md-6 col-sm-6">
           <div class="single-footer-widget">
-            <h6>About Agency</h6>
+            <h6>About eLab</h6>
             <p>
-              The world has become so fast paced that people don’t want to stand by reading a page of information to be  they would much rather look at a presentation and understand
+              We dedicate and proud ourselves to providing the best and equitable learning service to everyone else with no barrier.
             </p>
           </div>
         </div>
@@ -455,7 +167,7 @@ Devpage
           <div class="single-footer-widget">
             <h6>Newsletter</h6>
             <p>
-              For business professionals caught between high OEM price and mediocre print and graphic output.									
+              For those interested in keeping up with our latest news and updates.
             </p>								
             <div id="mc_embed_signup">
               <form target="_blank" action="https://spondonit.us12.list-manage.com/subscribe/post?u=1462626880ade1ac87bd9c93a&amp;id=92a4423d01" method="get" class="subscription relative">
@@ -468,27 +180,11 @@ Devpage
             </div>
           </div>
         </div>
-        <div class="col-lg-3  col-md-6 col-sm-6">
-          <div class="single-footer-widget mail-chimp">
-            <h6 class="mb-20">InstaFeed</h6>
-            <ul class="instafeed d-flex flex-wrap">
-              <li><img src="img/instagram/i1.jpg" alt=""></li>
-              <li><img src="img/instagram/i2.jpg" alt=""></li>
-              <li><img src="img/instagram/i3.jpg" alt=""></li>
-              <li><img src="img/instagram/i4.jpg" alt=""></li>
-              <li><img src="img/instagram/i5.jpg" alt=""></li>
-              <li><img src="img/instagram/i6.jpg" alt=""></li>
-              <li><img src="img/instagram/i7.jpg" alt=""></li>
-              <li><img src="img/instagram/i8.jpg" alt=""></li>
-            </ul>
-          </div>
-        </div>						
-      </div>
 
       <div class="footer-bottom">
         <div class="row align-items-center">
           <p class="col-lg-8 col-sm-12 footer-text m-0 text-center text-lg-left"><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This website is only made for the sake of the 2019 RMIT ITs Hackathon</a>
 <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
           <div class="col-lg-4 col-sm-12 footer-social text-center text-lg-right">
             <a href="#"><i class="fab fa-facebook-f"></i></a>
