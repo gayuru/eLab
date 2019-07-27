@@ -544,7 +544,7 @@
                                                 </ul>
                                             </div>
                                             <div class="px-4">
-                                                <input type="text" class="tdl-new form-control" placeholder="Write new item and hit 'Enter'...">
+                                                <input type="text" class="tdl-new form-control placeholder-text" placeholder="Write new item and hit 'Enter'...">
                                             </div>
                                         </div>
                                     </div>

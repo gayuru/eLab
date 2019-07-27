@@ -43,7 +43,7 @@
         <!--**********************************
             Nav header start
         ***********************************-->
-        <div class="nav-header">
+        <div class="nav-header nav-color">
             <div class="brand-logo">
                 <a href="index.html">
                     <b class="logo-abbr"><img src="images/logo.png" alt=""> </b>
@@ -206,7 +206,7 @@
                         <li class="icons dropdown">
                             <div class="user-img c-pointer position-relative"   data-toggle="dropdown">
                                 <span class="activity active"></span>
-                                <img src="images/user/1.png" height="40" width="40" alt="">
+                                <img src="images/user/4.jpg" height="40" width="40" alt="">
                             </div>
                             <div class="drop-down dropdown-profile animated fadeIn dropdown-menu">
                                 <div class="dropdown-content-body">
@@ -222,7 +222,7 @@
                                         
                                         <hr class="my-2">
                                         <li>
-                                            <a href="page-lock.html"><i class="icon-lock"></i> <span>Change to Student</span></a>
+                                            <a href="./index.php"><i class="icon-lock"></i> <span>Change to Teaching</span></a>
                                         </li>
                                         <li><a href="page-login.html"><i class="icon-key"></i> <span>Logout</span></a></li>
                                     </ul>
@@ -297,17 +297,26 @@
         <!--**********************************
             Content body start
         ***********************************-->
-        <div class="content-body">
+        <div class="content-body content-student">
 
             <div class="container-fluid mt-3">
                 <div class="row">
                 <div class="cd-switch">
-                <h1>Are you open to teach today?</h1>
-                <div id="toggles">
-                <input type="checkbox" name="checkbox1" id="checkbox1" class="ios-toggle" checked/>
-                <label for="checkbox1" class="checkbox-label" data-off="no" data-on="yes"></label>
+                <h1 class="heading-skill">Which Skill do you want to learn today?</h1>
+                <div id="cover">
+                <form method="get" action="">
+                    <div class="tb">
+                    <div class="td searchText"><input type="text" placeholder="Search" required></div>
+                    <div class="td" id="s-cover">
+                        <button type="submit">
+                        <div id="s-circle"></div>
+                        <span></span>
+                        </button>
+                    </div>
+                    </div>
+                </form>
                 </div>
-                </div> 
+            </div> 
 
 
                 </div>
@@ -315,9 +324,9 @@
                     <div class="col-lg-3 col-sm-6">
                         <div class="card gradient-1">
                             <div class="card-body">
-                                <h3 class="card-title text-white">Points earned last week</h3>
+                                <h3 class="card-title text-white">Points remaining</h3>
                                 <div class="d-inline-block">
-                                    <h2 class="text-white">80</h2>
+                                    <h2 class="text-white">40</h2>
                                     <p class="text-white mb-0">Jan - March 2019</p>
                                 </div>
                                 <span class="float-right display-5 opacity-5"><i class="fa fa-star"></i></span>
@@ -327,9 +336,9 @@
                     <div class="col-lg-3 col-sm-6">
                         <div class="card gradient-2">
                             <div class="card-body">
-                                <h3 class="card-title text-white">No of Individuals taught</h3>
+                                <h3 class="card-title text-white">Skills gained</h3>
                                 <div class="d-inline-block">
-                                    <h2 class="text-white">80</h2>
+                                    <h2 class="text-white">5</h2>
                                     <p class="text-white mb-0">Jan - March 2019</p>
                                 </div>
                                 <span class="float-right display-5 opacity-5"><i class="fa fa-users"></i></span>
@@ -339,9 +348,9 @@
                     <div class="col-lg-3 col-sm-6">
                         <div class="card gradient-3">
                             <div class="card-body">
-                                <h3 class="card-title text-white">Emerging Skills </h3>
+                                <h3 class="card-title text-white">New Skills gained in the past week </h3>
                                 <div class="d-inline-block">
-                                    <h2 class="text-white">3</h2>
+                                    <h2 class="text-white">2</h2>
                                     <p class="text-white mb-0">Jan - March 2019</p>
                                 </div>
                                 <span class="float-right display-5 opacity-5"><i class="fa fa-flag"></i></span>
@@ -351,9 +360,9 @@
                     <div class="col-lg-3 col-sm-6">
                         <div class="card gradient-4">
                             <div class="card-body">
-                                <h3 class="card-title text-white">Student Satisfaction</h3>
+                                <h3 class="card-title text-white">Points used</h3>
                                 <div class="d-inline-block">
-                                    <h2 class="text-white">90%</h2>
+                                    <h2 class="text-white">30</h2>
                                     <p class="text-white mb-0">Jan - March 2019</p>
                                 </div>
                                 <span class="float-right display-5 opacity-5"><i class="fa fa-heart"></i></span>
@@ -363,144 +372,16 @@
                 </div>
                 
 
-                <div class="row">
-                    <div class="col-lg-12">
-                        <div class="card">
-                            <div class="card-body">
-                                <div class="active-member">
-                                    <div class="table-responsive">
-                                        <table class="table table-xs mb-0">
-                                            <thead>
-                                                <tr>
-                                                    <th>Students</th>
-                                                    <th>Skills</th>
-                                                    <th>Country</th>
-                                                    <th>Status</th>
-                                                    <th>Points Gained</th>
-                                                    <th>Activity</th>
-                                                </tr>
-                                            </thead>
-                                            <tbody>
-                                                <tr>
-                                                    <td><img src="./images/avatar/1.jpg" class=" rounded-circle mr-3" alt="">Sarah Smith</td>
-                                                    <td>Java Programming</td>
-                                                    <td>
-                                                        <span>Australia</span>
-                                                    </td>
-                                                    <td>
-                                                        <div>
-                                                            <div class="progress" style="height: 6px">
-                                                                <div class="progress-bar bg-success" style="width: 100%"></div>
-                                                            </div>
-                                                        </div>
-                                                    </td>
-                                                    <td><i class="fa fa-circle-o text-success  mr-2"></i> 10pts</td>
-                                                    <td>
-                                                        <span>Last Login</span>
-                                                        <span class="m-0 pl-3">10 sec ago</span>
-                                                    </td>
-                                                </tr>
-                                                <tr>
-                                                    <td><img src="./images/avatar/2.jpg" class=" rounded-circle mr-3" alt="">Karuna R.</td>
-                                                    <td>English</td>
-                                                    <td><span>India</span></td>
-                                                    <td>
-                                                        <div>
-                                                            <div class="progress" style="height: 6px">
-                                                                <div class="progress-bar bg-success" style="width: 100%"></div>
-                                                            </div>
-                                                        </div>
-                                                    </td>
-                                                    <td><i class="fa fa-circle-o text-success  mr-2"></i> 15pts</td>
-                                                    <td>
-                                                        <span>Last Login</span>
-                                                        <span class="m-0 pl-3">50 sec ago</span>
-                                                    </td>
-                                                </tr>
-                                                <tr>
-                                                    <td><img src="./images/avatar/3.jpg" class=" rounded-circle mr-3" alt="">Andrew D.</td>
-                                                    <td>Java Programming</td>
-                                                    <td><span>Germany</span></td>
-                                                    <td>
-                                                        <div>
-                                                            <div class="progress" style="height: 6px">
-                                                                <div class="progress-bar bg-warning" style="width: 100%"></div>
-                                                            </div>
-                                                        </div>
-                                                    </td>
-                                                    <td><i class="fa fa-circle-o text-warning  mr-2"></i> 10pts</td>
-                                                    <td>
-                                                        <span>Last Login</span>
-                                                        <span class="m-0 pl-3">10 sec ago</span>
-                                                    </td>
-                                                </tr>
-                                                <tr>
-                                                    <td><img src="./images/avatar/6.jpg" class=" rounded-circle mr-3" alt=""> Megan S.</td>
-                                                    <td>HTML & CSS</td>
-                                                    <td><span>Japan</span></td>
-                                                    <td>
-                                                        <div>
-                                                            <div class="progress" style="height: 6px">
-                                                                <div class="progress-bar bg-success" style="width: 100%"></div>
-                                                            </div>
-                                                        </div>
-                                                    </td>
-                                                    <td><i class="fa fa-circle-o text-success  mr-2"></i> 15pts</td>
-                                                    <td>
-                                                        <span>Last Login</span>
-                                                        <span class="m-0 pl-3">10 sec ago</span>
-                                                    </td>
-                                                </tr>
-                                                <tr>
-                                                    <td><img src="./images/avatar/4.jpg" class=" rounded-circle mr-3" alt=""> Doris R.</td>
-                                                    <td>English</td>
-                                                    <td><span>England</span></td>
-                                                    <td>
-                                                        <div>
-                                                            <div class="progress" style="height: 6px">
-                                                                <div class="progress-bar bg-success" style="width: 100%"></div>
-                                                            </div>
-                                                        </div>
-                                                    </td>
-                                                    <td><i class="fa fa-circle-o text-success  mr-2"></i> 10pts</td>
-                                                    <td>
-                                                        <span>Last Login</span>
-                                                        <span class="m-0 pl-3">10 sec ago</span>
-                                                    </td>
-                                                </tr>
-                                                <tr>
-                                                    <td><img src="./images/avatar/5.jpg" class=" rounded-circle mr-3" alt="">Elizabeth W.</td>
-                                                    <td>HTML & CSS</td>
-                                                    <td><span>China</span></td>
-                                                    <td>
-                                                        <div>
-                                                            <div class="progress" style="height: 6px">
-                                                                <div class="progress-bar bg-warning" style="width: 50%"></div>
-                                                            </div>
-                                                        </div>
-                                                    </td>
-                                                    <td><i class="fa fa-circle-o text-warning  mr-2"></i> Pending</td>
-                                                    <td>
-                                                        <span>Last Login</span>
-                                                        <span class="m-0 pl-3">10 sec ago</span>
-                                                    </td>
-                                                </tr>
-                                            </tbody>
-                                        </table>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>                        
-                    </div>
+                
                 </div>
 
                 <div class="row skill-view">
                         <div class="col-lg-3 col-md-6 ">
                             <div class="card card-widget">
                                 <div class="card-body">
-                                    <h5 class="text-muted">Skills Overview </h5>
-                                    <h2 class="mt-4">6</h2>
-                                    <span>Total Skills</span>
+                                    <h5 class="text-muted">Learned Skills</h5>
+                                    <h2 class="mt-4">8</h2>
+                                    <span>Amount of Skills</span>
                                     <div class="mt-4">
                                         <h4>8 Clients</h4>
                                         <h6>English <span class="pull-right">80%</span></h6>
@@ -511,7 +392,7 @@
                                     </div>
                                     <div class="mt-4">
                                         <h4>4 Clients</h4>
-                                        <h6 class="m-t-10 text-muted">Java Programming <span class="pull-right">70%</span></h6>
+                                        <h6 class="m-t-10 text-muted">iOS Programming <span class="pull-right">70%</span></h6>
                                         <div class="progress mb-3" style="height: 7px">
                                             <div class="progress-bar bg-success" style="width: 70%;" role="progressbar"><span class="sr-only">50%</span>
                                             </div>
@@ -519,7 +400,7 @@
                                     </div>
                                     <div class="mt-4">
                                         <h4>2 Clients</h4>
-                                        <h6 class="m-t-10 text-muted">HTML & CSS<span class="pull-right">60%</span></h6>
+                                        <h6 class="m-t-10 text-muted">PhP Programming<span class="pull-right">60%</span></h6>
                                         <div class="progress mb-3" style="height: 7px">
                                             <div class="progress-bar bg-warning" style="width: 60%;" role="progressbar"><span class="sr-only">20% Order</span>
                                             </div>
@@ -552,78 +433,6 @@
                             </div>
                         </div>
                     </div>
-                <div class="row activity-view">
-                    
-                    <div class="col-xl-3 col-lg-6 col-sm-6 col-xxl-6">
-                        <div class="card">
-                            <div class="card-body">
-                                <h4 class="card-title">Activity</h4>
-                                <div id="activity">
-                                    <div class="media border-bottom-1 pt-3 pb-3">
-                                        <img width="35" src="./images/avatar/1.jpg" class="mr-3 rounded-circle">
-                                        <div class="media-body">
-                                            <h5>Received New Order</h5>
-                                            <p class="mb-0">I shared this on my fb wall a few months back,</p>
-                                        </div><span class="text-muted ">April 24, 2018</span>
-                                    </div>
-                                    <div class="media border-bottom-1 pt-3 pb-3">
-                                        <img width="35" src="./images/avatar/2.jpg" class="mr-3 rounded-circle">
-                                        <div class="media-body">
-                                            <h5>iPhone develered</h5>
-                                            <p class="mb-0">I shared this on my fb wall a few months back,</p>
-                                        </div><span class="text-muted ">April 24, 2018</span>
-                                    </div>
-                                    <div class="media border-bottom-1 pt-3 pb-3">
-                                        <img width="35" src="./images/avatar/2.jpg" class="mr-3 rounded-circle">
-                                        <div class="media-body">
-                                            <h5>3 Order Pending</h5>
-                                            <p class="mb-0">I shared this on my fb wall a few months back,</p>
-                                        </div><span class="text-muted ">April 24, 2018</span>
-                                    </div>
-                                    <div class="media border-bottom-1 pt-3 pb-3">
-                                        <img width="35" src="./images/avatar/2.jpg" class="mr-3 rounded-circle">
-                                        <div class="media-body">
-                                            <h5>Join new Manager</h5>
-                                            <p class="mb-0">I shared this on my fb wall a few months back,</p>
-                                        </div><span class="text-muted ">April 24, 2018</span>
-                                    </div>
-                                    <div class="media border-bottom-1 pt-3 pb-3">
-                                        <img width="35" src="./images/avatar/2.jpg" class="mr-3 rounded-circle">
-                                        <div class="media-body">
-                                            <h5>Branch open 5 min Late</h5>
-                                            <p class="mb-0">I shared this on my fb wall a few months back,</p>
-                                        </div><span class="text-muted ">April 24, 2018</span>
-                                    </div>
-                                    <div class="media border-bottom-1 pt-3 pb-3">
-                                        <img width="35" src="./images/avatar/2.jpg" class="mr-3 rounded-circle">
-                                        <div class="media-body">
-                                            <h5>New support ticket received</h5>
-                                            <p class="mb-0">I shared this on my fb wall a few months back,</p>
-                                        </div><span class="text-muted ">April 24, 2018</span>
-                                    </div>
-                                    <div class="media pt-3 pb-3">
-                                        <img width="35" src="./images/avatar/3.jpg" class="mr-3 rounded-circle">
-                                        <div class="media-body">
-                                            <h5>Facebook Post 30 Comments</h5>
-                                            <p class="mb-0">I shared this on my fb wall a few months back,</p>
-                                        </div><span class="text-muted ">April 24, 2018</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-6 col-lg-12 col-sm-12 col-xxl-12">
-                        <div class="card">
-                            <div class="card-body">
-                                    <h4 class="card-title mb-0">Skills Shared Location</h4>
-                                <div id="world-map" style="height: 470px;"></div>
-                            </div>        
-                        </div>
-                    </div>
-                </div>
-
-                
-
                
             </div>
             <!-- #/ container -->
