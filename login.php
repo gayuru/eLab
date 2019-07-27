@@ -25,9 +25,13 @@
 <!--===============================================================================================-->
 	<link rel="stylesheet" type="text/css" href="css/util.css">
 	<link rel="stylesheet" type="text/css" href="css/main.css">
-<!--===============================================================================================-->
+
+    <?php include('link_rel.php'); ?>
+
+    <!--===============================================================================================-->
 </head>
 <body>
+<?php include('header.php'); ?>
 	
 	
 	<div class="container-login100" style="background-image: url('img/bg-01.jpg');">
