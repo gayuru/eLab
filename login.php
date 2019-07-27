@@ -36,7 +36,7 @@
 
 	<div class="container-login100" style="background-image: url('img/bg-01.jpg');">
 		<div class="wrap-login100 p-l-55 p-r-55 p-t-80 p-b-30">
-			<form action="php/login.php" method="post" class="login100-form validate-form">
+			<form action="./php/login.php" method="post" class="login100-form validate-form">
 				<span class="login100-form-title p-b-37">
 					<img src="img/eLab.png">
 					Sign In
@@ -48,7 +48,7 @@
 				</div>
 
 				<div class="wrap-input100 validate-input m-b-25" data-validate = "Enter password">
-					<input class="input100" type="password" name="pass" placeholder="password">
+					<input class="input100" type="password" name="password" placeholder="password">
 					<span class="focus-input100"></span>
 				</div>
 
