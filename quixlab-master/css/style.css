@@ -14825,4 +14825,12 @@ html[dir="rtl"] [direction="rtl"][data-sidebar-style="compact"]:not([data-layout
     [data-theme-version="dark"] .footer .copyright p {
       color: #fff; }
 
+.coin-balance {
+  width: 30%;
+}
+
+.students-tutored {
+  width: 30%;
+}
+
 /*# sourceMappingURL=style.css.map */
