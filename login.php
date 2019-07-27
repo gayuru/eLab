@@ -35,7 +35,8 @@
 	
 	
 	<div class="container-login100" style="background-image: url('img/bg-01.jpg');">
-			<form class="login100-form validate-form">
+		<div class="wrap-login100 p-l-55 p-r-55 p-t-80 p-b-30">
+			<form action="php/login.php" method="post" class="login100-form validate-form">
 				<span class="login100-form-title p-b-37">
 					<img src="img/eLab.png">
 					Sign In
