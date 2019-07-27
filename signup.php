@@ -9,12 +9,24 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Sign Up Form</title>
         <link href='https://fonts.googleapis.com/css?family=Nunito:400,300' rel='stylesheet' type='text/css'>
-        <link rel="stylesheet" href="../css/main.css">
-        <link rel="stylesheet" href="../css/signup.css">
+        <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="vendor/vendors/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="vendor/vendors/fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="vendor/vendors/themify-icons/themify-icons.css">
+    <link rel="stylesheet" href="vendor/vendors/linericon/style.css">
+    <link rel="stylesheet" href="vendor/vendors/owl-carousel/owl.theme.default.min.css">
+    <link rel="stylesheet" href="vendor/vendors/owl-carousel/owl.carousel.min.css">
+    <link rel="stylesheet" href="vendor/vendors/flat-icon/font/flaticon.css">
+    <link rel="stylesheet" href="vendor/vendors/nice-select/nice-select.css">
+    <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/signup.css">
     </head>
     <body>
-
-      <form action="index.html" method="post">
+    <?php include('header.php'); ?>
+    <br>
+    <br>
+    <br>
+      <form action="entry.php" method="post">
 
         <h1>Sign Up</h1>
 
@@ -67,7 +79,8 @@
             <input type="checkbox" id="design" value="interest_design" name="user_interest"><label class="light" for="design">Learning</label><br>
 
         </fieldset>
-        <button type="submit">Sign Up</button>
+          <br>
+        <button class="button" type="submit">Sign Up</button>
       </form>
 
     </body>
