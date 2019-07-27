@@ -10,7 +10,6 @@
 <body class="bg-shape">
 
 <a href="php/core.php" class="txt2 hov1">
-Devpage
 </a>
 
   <!--================ Header Menu Area start =================-->
@@ -64,7 +63,7 @@ Devpage
   <section class="section-margin generic-margin">
     <div class="container">
       <div class="section-intro text-center pb-90px">
-        <img class="section-intro-img" src="img/home/section-icon.png" alt="">
+        <img class="section-intro-img img-special" src="img/home/goal.png" alt="">
         <h2>What Makes Us Special</h2>
         <p>Three of the reasons of what makes us different.</p>
       </div>
@@ -73,7 +72,7 @@ Devpage
         <div class="col-md-6 col-lg-4 mb-4 mb-lg-0">
           <div class="service-card text-center">
             <div class="service-card-img">
-              <img class="img-fluid" src="img/home/service1.png" alt="">
+              <img class="img-fluid elearning" src="img/home/elearning.png" alt="">
             </div>
             <div class="service-card-body">
               <h3>Learn Various Skills</h3>
@@ -115,7 +114,7 @@ Devpage
       <div class="row">
         <div class="col-lg-7 col-md-6 mb-4 mb-md-0">
           <div class="about-img">
-            <img class="img-fluid" src="img/home/about-img.png" alt="">
+            <img class="img-fluid" src="img/home/edu.png" alt="">
           </div>
         </div>
         <div class="col-lg-5 col-md-6 align-self-center about-content">
