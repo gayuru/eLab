@@ -65,8 +65,8 @@ Devpage
     <div class="container">
       <div class="section-intro text-center pb-90px">
         <img class="section-intro-img" src="img/home/section-icon.png" alt="">
-        <h2>Our Most Popular Skills</h2>
-        <p>A selection of our most popular taught skills.</p>
+        <h2>What Makes Us Special</h2>
+        <p>Three of the reasons of what makes us different.</p>
       </div>
 
       <div class="row">
@@ -76,8 +76,8 @@ Devpage
               <img class="img-fluid" src="img/home/service1.png" alt="">
             </div>
             <div class="service-card-body">
-              <h3>Programming Skills</h3>
-              <p>Starting from back-end programming skills such as Java, Python, and C# to front-end such as Javascript along with various frameworks</p>
+              <h3>Learn Various Skills</h3>
+              <p>Enjoy various skills from different fields such as Science, Programming, Art, Languages, and even Bussiness.</p>
             </div>
           </div>
         </div>
@@ -87,8 +87,8 @@ Devpage
               <img class="img-fluid" src="img/home/service2.png" alt="">
             </div>
             <div class="service-card-body">
-              <h3>Science Skills</h3>
-              <p>Whether it is Biology, Chemistry, Physics, Maths, or even more specific knowledge regarding Medicine and Nanotechnology</p>
+              <h3>Accessible & Equitable Learning</h3>
+              <p>A wide-range of support for all kinds of learning, including but not limited to video, audio, or even text based learning.</p>
             </div>
           </div>
         </div>
@@ -98,8 +98,8 @@ Devpage
               <img class="img-fluid" src="img/home/service3.png" alt="">
             </div>
             <div class="service-card-body">
-              <h3>Art Skills</h3>
-              <p>Help in writing and learning languages starting from our most well-sought language such as Japanese and Chinese</p>
+              <h3>Earn Points for Free</h3>
+              <p>Earn points by sharing your skills with others without spending even a single cent for the service</p>
             </div>
           </div>
         </div>
