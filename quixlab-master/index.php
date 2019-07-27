@@ -224,7 +224,7 @@
                                         <li>
                                             <a href="index-student.php"><i class="icon-lock"></i> <span>Change to Student</span></a>
                                         </li>
-                                        <li><a href="page-login.html"><i class="icon-key"></i> <span>Logout</span></a></li>
+                                        <li><a href="../index.php"><i class="icon-key"></i> <span>Logout</span></a></li>
                                     </ul>
                                 </div>
                             </div>

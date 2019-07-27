@@ -18,7 +18,7 @@
 <br>
 <br>
 <br>
-<form action="login.php" method="post">
+<form action="quixlab-master/index.php" method="post">
 
     <h1>Entry Test</h1>
     <h2 align="center">Software (Java)</h2>
