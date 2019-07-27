@@ -20,6 +20,10 @@
 </head>
 <body class="bg-shape">
 
+<a href="core.php" class="txt2 hov1">
+Devpage
+</a>
+
   <!--================ Header Menu Area start =================-->
   <header class="header_area">
     <div class="main_menu">
