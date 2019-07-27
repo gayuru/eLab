@@ -4,54 +4,121 @@ html {
 
 .container-chat-box {
     background: #fff;
+    width: 100%;
     height: 100%;
     border-radius: 10px;
     overflow: hidden;
+
 }
 
 .chat-history {
-    background: #0ff;
-    height: 95%;
-
+    
+    height: 90%;
+    padding: 1%;
 }
 
-.current-message input {
-    width: 80%;
-    flex: 1 1 auto;
+.container-control {
+    height: 8%;
+}
+
+.message-container {
+    border: 2px solid #dedede;
+    background-color: #f1f1f1;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px 0;
+    font-family: 'Arial';
+}
+  
+.darker {
+    border-color: #ccc;
+    background-color: #ddd;
+}
+  
+.message-container::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+  
+.message-container img {
     float: left;
+    max-width: 60px;
+    width: 100%;
+    margin-right: 20px;
+    border-radius: 50%;
+}
+  
+.message-container.right img {
+    float: right;
+    margin-left: 20px;
+    margin-right:0;
+}
+
+.message-container.right p {
+    text-align: right;
+}
+  
+.time-right {
+    float: right;
+    color: #aaa;
+}
+  
+.time-left {
+    float: left;
+    color: #999;
+}
+
+.current-message {
+    float: left; 
+    width: 85%; 
+    margin-right: 3%;
+    margin-left: 1%; 
+    position: relative;
+}
+
+
+.current-message input[type="text"] {
+    font: 15px/24px "Lato", Arial, sans-serif; 
+    color: #333; 
+    width: 100%; 
+    box-sizing: border-box; 
+    letter-spacing: 1px;
+}
+
+.effect-10 {
+    border: 0; 
+    padding: 7px 15px; 
+    border: 1px solid #ccc; 
+    position: relative; 
+    background: transparent;
+}
+
+.effect-10 ~ .focus-bg {
+    position: absolute; 
+    left: 0; 
+    top: 0; 
+    width: 100%; 
+    height: 100%; 
+    background-color: #ededed; 
+    opacity: 0; 
+    transition: 0.5s; 
+    z-index: -1;
+}
+
+.effect-10:focus ~ .focus-bg {
+    transition: 0.5s; 
+    opacity: 1;
 }
 
 .chat-control {
-    height: 5%;
-}
-
-
-#send-message {
-    content: url("../images/icons/send.png");
-    padding-top: 2px;
-    padding-bottom: 2px;
     height: 100%;
+    width: 15%;
 }
 
-#upload-file {
-    content: url("../images/icons.file.png");
-    padding-top: 2px;
-    padding-bottom: 2px;
-    height: 100%;
+.action-icon {
+    height: 50%;
 }
 
-#video-chat {
-    content: url("../images/icons/video.png");
-    padding-top: 2px;
-    padding-bottom: 2px;
-    height: 90%;
-}
-
-#voice-chat {
-    content: url("../images/icons/audio.png");
-    padding-top: 2px;
-    padding-bottom: 2px;
-    height: 100%;
-}
 
 
