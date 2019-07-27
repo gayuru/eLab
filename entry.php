@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="css/signup.css">
 </head>
 <body>
+<div class="container-login100" style="background-image: url('img/bg-01.jpg');">
 <?php include('header.php'); ?>
 <br>
 <br>
@@ -49,6 +50,6 @@
     <br>
     <button class="button" type="submit">Sign Up</button>
 </form>
-
+</div>
 </body>
 </html>
