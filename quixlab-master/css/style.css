@@ -15003,4 +15003,12 @@ html[dir="rtl"] [direction="rtl"][data-sidebar-style="compact"]:not([data-layout
   width: 30%;
 }
 
+.badges-earned {
+  width: 30%;
+}
+
+.recent-badge {
+  width: 30%;
+}
+
 /*# sourceMappingURL=style.css.map */
