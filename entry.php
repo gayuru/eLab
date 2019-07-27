@@ -26,14 +26,14 @@
 
     <fieldset>
         <legend><span class="number">1</span>Basic Knowledge</legend>
-        <label for="name">What is an IDE?</label>
-        <input type="text" id="name" name="user_name">
+        <label for="q1">What is an IDE?</label>
+        <input type="text" id="q1" name="question_one">
 
-        <label for="mail">What are some popular Java UI?</label>
-        <input type="email" id="mail" name="user_email">
+        <label for="q2">What are some popular Java UI?</label>
+        <input type="text" id="q2" name="question_two">
 
-        <label for="password">Name 5 Design Patterns</label>
-        <input type="password" id="password" name="user_password">
+        <label for="q3">Name 5 Design Patterns</label>
+        <input type="text" id="q3" name="question_three">
 
     </fieldset>
 
