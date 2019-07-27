@@ -149,7 +149,9 @@ address {
   font-style: normal;
   line-height: inherit; }
 
-
+.profile {
+  font-family: inherit;
+}
 
 ol,
 ul,
@@ -255,6 +257,7 @@ th {
 label {
   display: inline-block;
   margin-bottom: 0.5rem; }
+
 
 button {
   border-radius: 0; }
@@ -573,7 +576,8 @@ font-size: 60px;
     padding-left: 35px;
 }
 
-button
+
+#skill-search
 {
     position: relative;
     display: block;
@@ -581,6 +585,7 @@ button
     height: 96px;
     cursor: pointer;
 }
+
 
 #s-circle
 {
