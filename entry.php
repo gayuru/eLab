@@ -18,7 +18,7 @@
 <br>
 <br>
 <br>
-<form action="entry.php" method="post">
+<form action="login.php" method="post">
 
     <h1>Entry Test</h1>
     <h2 align="center">Software (Java)</h2>
