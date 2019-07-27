@@ -129,7 +129,6 @@ try {
                     
                     <span class="chat-control">
                         <input type="submit" value="Send" name="submit">
-                        <!-- <img class="action-icon" src="img/icons/file.png"> -->
                         <div class="skype-button bubble" data-bot-id="00202100-b3b0-460d-97fb-5c9d3adc0bc4" data-contact-id="gayuru.gunawardana1">
                         <!-- <img class="action-icon" src="img/icons/audio.png"> -->
                         <!-- <img class="action-icon" src="img/icons/video.png"> -->

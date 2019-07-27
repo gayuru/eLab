@@ -217,7 +217,7 @@
                 <div class="cd-switch">
                 <h1 class="heading-skill">What do you want to learn today?</h1>
                 <div id="cover">
-                <form method="get" action="">
+                <form method="get" action="../chat.php">
                     <div class="tb">
                     <div class="td searchText"><input type="text" placeholder="Search" required></div>
                     <div class="td" id="s-cover">
