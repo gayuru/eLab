@@ -31,7 +31,7 @@ if (!preg_match("/^[A-Za-z\s.'-]*$/", $name) || !filter_var($email, FILTER_VALID
     !preg_match("/^(\(04\)|04|\+614)[ ]?\d{4}[ ]?\d{4}$/", $phone) ||
     !($mailing=="off" || $mailing=="on") {
     echo 'Illegal inputs, directing you back to the contact page';
-    header("Refresh: 5; URL=contact.php");
+    header("Refresh: 5; URL=signup.php");
     exit();
 }
 
