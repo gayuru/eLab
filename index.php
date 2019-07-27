@@ -28,7 +28,11 @@
 <!--===============================================================================================-->
 </head>
 <body>
-	
+
+
+<a href="core.php" class="txt2 hov1">
+    Devpage
+</a>
 	
 	<div class="container-login100" style="background-image: url('images/bg-01.jpg');">
 		<div class="wrap-login100 p-l-55 p-r-55 p-t-80 p-b-30">
