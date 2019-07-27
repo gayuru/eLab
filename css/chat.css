@@ -1,0 +1,57 @@
+html {
+    background-color: #267dff;
+}
+
+.container-chat-box {
+    background: #fff;
+    height: 100%;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.chat-history {
+    background: #0ff;
+    height: 95%;
+
+}
+
+.current-message input {
+    width: 80%;
+    flex: 1 1 auto;
+    float: left;
+}
+
+.chat-control {
+    height: 5%;
+}
+
+
+#send-message {
+    content: url("../images/icons/send.png");
+    padding-top: 2px;
+    padding-bottom: 2px;
+    height: 100%;
+}
+
+#upload-file {
+    content: url("../images/icons.file.png");
+    padding-top: 2px;
+    padding-bottom: 2px;
+    height: 100%;
+}
+
+#video-chat {
+    content: url("../images/icons/video.png");
+    padding-top: 2px;
+    padding-bottom: 2px;
+    height: 90%;
+}
+
+#voice-chat {
+    content: url("../images/icons/audio.png");
+    padding-top: 2px;
+    padding-bottom: 2px;
+    height: 100%;
+}
+
+
