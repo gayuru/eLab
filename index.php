@@ -1,21 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>eLab - Home</title>
-	<link rel="icon" href="img/Fevicon.png" type="image/png">
-
-  <link rel="stylesheet" href="vendor/vendors/bootstrap/bootstrap.min.css">
-  <link rel="stylesheet" href="vendor/vendors/fontawesome/css/all.min.css">
-  <link rel="stylesheet" href="vendor/vendors/themify-icons/themify-icons.css">
-  <link rel="stylesheet" href="vendor/vendors/linericon/style.css">
-  <link rel="stylesheet" href="vendor/vendors/owl-carousel/owl.theme.default.min.css">
-  <link rel="stylesheet" href="vendor/vendors/owl-carousel/owl.carousel.min.css">
-  <link rel="stylesheet" href="vendor/vendors/flat-icon/font/flaticon.css">
-  <link rel="stylesheet" href="vendor/vendors/nice-select/nice-select.css">
-  <link rel="stylesheet" href="css/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>eLab - Home</title>
+    <?php include('link_rel.php'); ?>
 </head>
 <body class="bg-shape">
 
@@ -58,8 +48,8 @@ Devpage
       <div class="row align-items-center text-center text-md-left">
         <div class="col-md-6 col-lg-5 mb-5 mb-md-0">
           <h1>Skill for a Skill</h1>
-          <p>Air seed winged lights saw kind whales in sixth dont seas dron image so fish all tree meat dont there is seed winged lights saw kind whales in sixth dont seas dron image so fish all tree meat dont there </p>
-          <a class="button button-hero mt-4" href="#">Get Started</a>
+          <p>A skill taught, a skill learnt. Skill for skill lets you learn, teach or both any skill you want, to other people, by the people.</p>
+          <a class="button button-hero mt-4" href="login.php">Get Started</a>
         </div>
         <div class="col-md-6 col-lg-7 col-xl-6 offset-xl-1">
           <img class="img-fluid" src="img/home/hero-img.png" alt="">
@@ -75,8 +65,8 @@ Devpage
     <div class="container">
       <div class="section-intro text-center pb-90px">
         <img class="section-intro-img" src="img/home/section-icon.png" alt="">
-        <h2>Our Popular Services</h2>
-        <p>Fowl have fruit moveth male they are that place you will lesser</p>
+        <h2>Our Most Popular Skills</h2>
+        <p>A selection of our most popular taught skills.</p>
       </div>
 
       <div class="row">
