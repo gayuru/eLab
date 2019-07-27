@@ -134,13 +134,15 @@ iframe {
   font-family: SourceSansPro-Regular;
   font-size: 16px;
   line-height: 1.4;
-
   color: #4b2354;
 }
 
 .hov1:hover {
   color: #4b2354;
   text-decoration: underline;
+}
+.txtSignup{
+  margin-top: 20px;
 }
 
 
@@ -454,6 +456,56 @@ iframe {
   -ms-box-shadow: 0 5px 20px 0px rgba(0, 0, 0, 0.2);
 }
 
+.option-btn{
+  margin: 0 auto;
+  width: 100px; 
+  margin-bottom: 20px;
+
+}
+.form-radio
+{
+     -webkit-appearance: none;
+     -moz-appearance: none;
+     appearance: none;
+     display: inline-block;
+     position: relative;
+     background-color: #f1f1f1;
+     color: #666;
+     top: 10px;
+     height: 30px;
+     width: 30px;
+     border: 0;
+     border-radius: 50px;
+     cursor: pointer;     
+     margin-right: 7px;
+     outline: none;
+}
+.form-radio:checked::before
+{
+     position: absolute;
+     font: 13px/1 'Open Sans', sans-serif;
+     left: 11px;
+     top: 7px;
+     content: '\02143';
+     transform: rotate(40deg);
+}
+.form-radio:hover
+{
+     background-color: #f7f7f7;
+}
+.form-radio:checked
+{
+     background-color: #f1f1f1;
+}
+label
+{
+     font: 15px/1.7 'Open Sans', sans-serif;
+     color: #333;
+     -webkit-font-smoothing: antialiased;
+     -moz-osx-font-smoothing: grayscale;
+     cursor: pointer;
+} 
+
 /*//////////////////////////////////////////////////////////////////
 [ Responsive ]*/
 
@@ -463,3 +515,5 @@ iframe {
     padding-right: 15px;
   }
 }
+
+
