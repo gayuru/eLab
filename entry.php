@@ -21,7 +21,7 @@
 <form action="entry.php" method="post">
 
     <h1>Entry Test</h1>
-    <h2 align="center">Programming (Java)</h2>
+    <h2 align="center">Software (Java)</h2>
     <br>
 
     <fieldset>
@@ -42,13 +42,21 @@
         <label for="bio">Generate the sentence, "Hello World!"</label>
         <textarea id="bio" name="user_bio"></textarea>
     </fieldset>
-        <label>Interests:</label>
-        <input type="checkbox" id="development" value="interest_development" name="user_interest"><label class="light" for="development">Teaching</label><br>
-        <input type="checkbox" id="design" value="interest_design" name="user_interest"><label class="light" for="design">Learning</label><br>
-
+    <legend><span class="number">3</span>Self-Assessment</legend>
+    <label for="self">How would you rate your programming skills out of 10?</label>
+    <select>
+        <?php
+        for ($i=1; $i<=10; $i++)
+        {
+            ?>
+            <option value="<?php echo $i;?>"><?php echo $i;?></option>
+            <?php
+        }
+        ?>
+    </select>
     </fieldset>
     <br>
-    <button class="button" type="submit">Sign Up</button>
+    <button class="button" type="submit">Submit Answers</button>
 </form>
 </div>
 </body>
