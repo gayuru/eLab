@@ -61,7 +61,7 @@
 				</div>
 
 				<div class="text-center txtSignup">
-					<a href="#" class="txt2 hov1">
+					<a href="signup.php" class="txt2 hov1">
 						Sign Up
 					</a>
 				</div>
