@@ -20,7 +20,7 @@
 </head>
 <body class="bg-shape">
 
-<a href="core.php" class="txt2 hov1">
+<a href="php/core.php" class="txt2 hov1">
 Devpage
 </a>
 
