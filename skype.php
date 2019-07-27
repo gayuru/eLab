@@ -7,12 +7,10 @@
   <title>Skype Page</title>
 </head>
 <body>
-  <div class="skype-button bubble" data-bot-id="00202100-b3b0-460d-97fb-5c9d3adc0bc4" data-contact-id="gayuru.gunawardana1">
   </div>
 
 
   </div>
-  <script src="https://swc.cdn.skype.com/sdk/v1/sdk.min.js"></script>
-  <script>SkypeWebControl.SDK.start();</script>
+ 
 </body>
 </html>
