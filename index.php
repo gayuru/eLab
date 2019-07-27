@@ -7,7 +7,7 @@
   <title>eLab - Home</title>
 	<link rel="icon" href="img/Fevicon.png" type="image/png">
 
-  <link rel="stylesheet" href="vendors/bootstrap/bootstrap.min.css">
+  <link rel="stylesheet" href="vendor/bootstrap/bootstrap.min.css">
   <link rel="stylesheet" href="vendor/fontawesome/css/all.min.css">
   <link rel="stylesheet" href="vendor/themify-icons/themify-icons.css">
   <link rel="stylesheet" href="vendor/linericon/style.css">
