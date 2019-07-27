@@ -465,6 +465,13 @@ h3, .h3 {
   }
 }
 
+.img-special{
+height:100px;
+}
+
+.elearning{
+  height:160px;
+}
 @media (max-width: 991px) {
   /* Main Menu Area css
 	============================================================================================ */
