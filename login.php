@@ -48,20 +48,19 @@
 					<span class="focus-input100"></span>
 				</div>
 
+				<div class="option-btn">
+				<input type="radio" name="demo" value="one" id="radio-one" class="form-radio" checked><label for="radio-one">Study</label>
+				<input type="radio" name="demo" value="one" id="radio-one" class="form-radio" checked><label for="radio-one">Teach</label>
+				</div>
+
+
 				<div class="container-login100-form-btn">
 					<button class="login100-form-btn">
 						Sign In
 					</button>
 				</div>
 
-				<span>
-
-				</span>
-
-				<div class="text-center">
-					<span>
-						
-					</span>
+				<div class="text-center txtSignup">
 					<a href="#" class="txt2 hov1">
 						Sign Up
 					</a>
