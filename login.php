@@ -65,7 +65,7 @@
 				</div>
 
 				<div class="text-center txtSignup">
-					<a href="signup.php" class="txt2 hov1">
+					<a href="./quixlab-master/index.php" class="txt2 hov1">
 						Sign Up
 					</a>
 				</div>

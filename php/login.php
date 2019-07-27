@@ -12,7 +12,7 @@ if(isset($_POST['password'])){
 }
 
 if (login($username,$password)){
-  header('Location:./dashboard.php');
+  header('Location:dashboard.php');
 }
 
 function login($username,$password){
