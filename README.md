@@ -44,11 +44,11 @@ A Working live demo → [eLab Demo](https://elab.gayurug.com/) 🚀
 
 ## Team
 - [Gayuru Gunawardena](https://gayurug.com/)
-- Sogyal Sherpa
-- Justin	Vitale
-- James	Dimos
-- Brian	Yang
-- Edward Kahiro	Kuo 
+- [Sogyal Sherpa](https://github.com/sogyals429)
+- [Justin	Vitale](https://github.com/Dimmerworld)
+- [James	Dimos](https://github.com/j9d)
+- [Brian	Yang](https://github.com/a-xylotl)
+- [Edward Kahiro	Kuo](https://github.com/kahirokuo)
 
 ## License
 - Apache License 2.0
