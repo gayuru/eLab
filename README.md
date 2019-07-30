@@ -1,11 +1,16 @@
-<a href="https://github.com/gayuru/eLab">
-    <img src="https://imgur.com/1u6LFjr.png" alt="eLab logo" title="eLab" align="right" height="50" />
-</a>
+<h1 align="center">
+  <br>
+  <a href="https://github.com/gayuru/eLab"><img src="https://imgur.com/1u6LFjr.png" alt="eLab" width="200"></a>
+</h1>
 
-eLab
-======================
-🎉 A skill taught, a skill learnt 🎉 <br><br>
-Skill for skill lets you **learn, teach** or **both** - any skill you want, to **other people, by the people**.
+<h3 align="center">🎉 A skill taught, a skill learnt 🎉</h3>
+<p align="center">Skill for skill lets you <b>learn, teach</b> or <b>both </b> - any skill you want, to <b>other people, by the people</b>.
+</p>
+
+<div align="center">
+  <sub>Built with ❤︎ by
+  <a href="https://imgur.com/WDJaCP0.jpg">Team Kofrichi</a> for  <a href="https://sites.rmit.edu.au/itshackathon"> ITS Hackathon '19</a>
+</div>
 
 ## Skills for All - a skill for EVERY ONE OF YOU ##
 
@@ -17,6 +22,11 @@ Skill for skill lets you **learn, teach** or **both** - any skill you want, to *
 
 - **Currency = Points**
 <br> Earn points by sharing your skills with others without spending even a single cent for the service.
+
+## Demo
+
+A Working live demo --> 
+
 
 ## Teach 👨‍🏫 
 
@@ -32,3 +42,8 @@ Skill for skill lets you **learn, teach** or **both** - any skill you want, to *
 - AWS :
 
 ## Team
+
+
+## License
+
+
