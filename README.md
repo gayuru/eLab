@@ -25,8 +25,7 @@
 
 ## Demo
 
-A Working live demo --> 
-
+A Working live demo → [eLab Demo](https://elab.gayurug.com/) 🚀
 
 ## Teach 👨‍🏫 
 
@@ -37,13 +36,19 @@ A Working live demo -->
 ![](https://imgur.com/ndRHpHz.png)
 
 ## Built With
-- PHP :
-- JS :
-- AWS :
+- [PHP](https://php.net/) - a popular general-purpose scripting language that is especially suited to web development..
+- [Javascript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) - a lightweight, interpreted, or just-in-time compiled programming language with first-class functions.
+- [AWS Technologies](http://aws.amazon.com/) - reliable, scalable, and inexpensive cloud computing services.
+- [ColorLib](https://colorlib.com/) - Simple, responsive, clean and fast loading HTML5 themes for everyone. 
+- [Skype API](https://dev.skype.com/) - Video Call and Chat on your website with 2 lines of code.
 
 ## Team
-
+- [Gayuru Gunawardena](https://gayurug.com/)
+- Sogyal Sherpa
+- Justin	Vitale
+- James	Dimos
+- Brian	Yang
+- Edward Kahiro	Kuo 
 
 ## License
-
-
+- Apache License 2.0
